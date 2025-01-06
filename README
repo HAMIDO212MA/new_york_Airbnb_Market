@@ -1,0 +1,65 @@
+#Exploration du Marché Airbnb à New York City
+
+##Vue d'ensemble du projet
+Dans ce projet, diverses compétences essentielles en science des données sont appliquées pour analyser le marché Airbnb à New York City (NYC). 
+L'accent est mis sur l'importation, le nettoyage, et l'analyse des données afin d'extraire des informations précises et pertinentes. 
+
+Le projet inclut :
+- L'ingestion et la combinaison de données provenant de fichiers multiples.
+- Le nettoyage des chaînes de caractères.
+- La mise en forme des dates pour une meilleure analyse.
+
+
+
+---
+
+## À propos de l'ensemble de données
+Bienvenue à New York City, l'une des villes les plus visitées au monde. Pour répondre à une forte demande de logements temporaires, NYC propose de nombreuses annonces Airbnb. Cet ensemble de données reflète les caractéristiques du marché et aide à comprendre les dynamiques de l'hébergement via Airbnb.
+
+
+
+---
+
+## Bibliothèques et modules utilisés
+- **Numpy**
+- **Pandas**
+- **Google Colab**
+- **Datetime**
+
+---
+
+## Plan du projet
+1. **Importation des données** : Techniques utilisées pour importer des fichiers `.xlsx` et `.csv`.
+2. **Fusion et agrégation des données** : Combinaison de plusieurs DataFrames provenant de différentes sources.
+3. **Création de caractéristiques** : Génération de nouvelles colonnes pour enrichir l'analyse.
+4. **Exploration des données** : Analyse préliminaire des structures de données (`head()`, `describe()`, `info()`).
+5. **Nettoyage des données** : 
+   - Suppression des valeurs inutiles.
+   - Conversion correcte des types de données (par exemple, `str`, `int`, `category`).
+   - Gestion des données manquantes (NULL/NA).
+6. **Analyse des données** : 
+   - Comparaison des prix Airbnb au marché locatif privé.
+   - Analyse des tendances de prix par borough (quartier) de NYC.
+   - Résumés statistiques clés pour les annonces.
+
+---
+
+## Aperçus du marché Airbnb à NYC
+- **Prix moyen par nuit** : $141,78.
+- **Coût mensuel moyen** : $4253,34 (contre $3100,00 sur le marché locatif privé).
+- L'ensemble de données inclut des résumés statistiques et des comparaisons détaillées par borough.
+- Une segmentation des plages de prix par borough a été réalisée pour une meilleure compréhension.
+
+---
+
+## Compétences clés mises en avant
+- Importation et exploration de données.
+- Nettoyage et préparation des données.
+- Analyse descriptive et comparative.
+- Création de nouvelles caractéristiques à partir des données existantes.
+- Fusion et agrégation de données multi-sources.
+
+---
+
+## Auteur
+BENHNIYA Ahmed
